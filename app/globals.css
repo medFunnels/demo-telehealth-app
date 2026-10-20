@@ -188,7 +188,9 @@ h3 { font-size: 1.15rem; font-weight: 700; letter-spacing: -0.015em; line-height
 .footer-legal a { color: #d6e6e3; }
 
 /* Visit + checkout (focused layout) */
-.flow-shell { display: flex; flex-direction: column; min-height: calc(100vh - 38px); background: var(--soft); }
+/* The visit fills the window below the banner exactly, without a guessed banner height (which made the page scroll 1px). */
+body:has(.flow-shell) { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
+.flow-shell { flex: 1; display: flex; flex-direction: column; background: var(--soft); }
 .flow-header { background: #fff; border-bottom: 1px solid var(--line); }
 .flow-header-row { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; min-height: 64px; }
 .secure { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
