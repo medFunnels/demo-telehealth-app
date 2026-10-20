@@ -1,0 +1,8 @@
+{
+  "api": "https://medical-forms-ai-web.onrender.com",
+  "organizationId": "org_h0mhaqtdpxx2abs8za7k",
+  "signingKeys": {
+    "funnelrx-dev-ed25519-1": "81RXCEs4yzXgweBTkDZtSE8m5GUgdt7g3fiiVUAwLbw"
+  },
+  "analytics": true
+}
