@@ -1,3 +1,5 @@
+import "server-only";
+
 import { createMedFunnels } from "@medfunnels/next/server";
 
 import releases from "./.medfunnels/releases.json";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import { Logo } from "../../components/Logo";
-import { CATEGORIES, startHref } from "../../lib/catalog";
+import { Logo } from "@/components/Logo";
+import { CATEGORIES, startHref } from "@/lib/catalog";
 
 const REPO = "https://github.com/medFunnels/demo-telehealth-app";
 

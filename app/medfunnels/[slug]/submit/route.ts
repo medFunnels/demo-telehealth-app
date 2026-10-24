@@ -1,4 +1,4 @@
-import { medfunnels } from "../../../../medfunnels.server";
+import { medfunnels } from "@/medfunnels.server";
 
 export const runtime = "nodejs";
 

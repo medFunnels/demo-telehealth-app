@@ -2,8 +2,8 @@
 
 import { redirect } from "next/navigation";
 
-import { medfunnels } from "../../../../medfunnels.server";
-import { CONVERSION_NAME, PLANS } from "../../../../lib/plans";
+import { medfunnels } from "@/medfunnels.server";
+import { CONVERSION_NAME, PLANS } from "@/lib/plans";
 
 export async function choosePlan(formData: FormData) {
     const slug = String(formData.get("slug") ?? "");

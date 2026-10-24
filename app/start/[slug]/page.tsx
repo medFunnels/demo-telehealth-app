@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 
 import { MedFunnelsQuestionnaire } from "@medfunnels/next/client";
 
-import { QUESTIONNAIRE_THEME } from "../../../lib/brand";
-import { getProgram } from "../../../lib/programs";
-import { medfunnels } from "../../../medfunnels.server";
+import { QUESTIONNAIRE_THEME } from "@/lib/brand";
+import { getProgram } from "@/lib/programs";
+import { medfunnels } from "@/medfunnels.server";
 
 type Props = { params: Promise<{ slug: string }> };
 

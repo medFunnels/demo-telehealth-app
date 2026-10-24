@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { Chat, Check, Stethoscope, Truck } from "../../../../components/icons";
-import { PLANS } from "../../../../lib/plans";
-import { getProgram } from "../../../../lib/programs";
+import { Chat, Check, Stethoscope, Truck } from "@/components/icons";
+import { PLANS } from "@/lib/plans";
+import { getProgram } from "@/lib/programs";
 
 export const metadata: Metadata = { title: "You're all set" };
 

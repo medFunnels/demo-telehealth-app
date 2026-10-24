@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { Check, Shield, Truck } from "../../../../components/icons";
-import { PLANS } from "../../../../lib/plans";
-import { getProgram } from "../../../../lib/programs";
+import { Check, Shield, Truck } from "@/components/icons";
+import { PLANS } from "@/lib/plans";
+import { getProgram } from "@/lib/programs";
 import { choosePlan } from "./actions";
 
 export const metadata: Metadata = { title: "Choose your plan" };

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { Stethoscope } from "../../../../components/icons";
+import { Stethoscope } from "@/components/icons";
 
 export const metadata: Metadata = { title: "Let's find the right care" };
 

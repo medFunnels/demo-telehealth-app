@@ -77,6 +77,7 @@ Deploying takes three steps, in this order:
 | `MEDFUNNELS_CLIENT_SECRET` | `mfs_…` from step 1. Mark it secret if your host offers that. | Always |
 | `MEDFUNNELS_CONVERSION` | Conversion name the plan page reports (default `purchased`) | Optional |
 | `MEDFUNNELS_API` | Only if you use a medFunnels deployment other than www.medfunnels.app | Optional |
+| `MEDFUNNELS_SITE_ORIGIN` | The website this deployment serves, if your workspace locks releases to its websites | Optional |
 
 Both credential variables are used at **build time**, to download questionnaires, and at **runtime**, to send analytics. Make them available to both. On Render and Vercel they are by default.
 

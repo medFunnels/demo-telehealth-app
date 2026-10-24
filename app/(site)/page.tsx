@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import { ArrowRight, Bolt, Chat, Check, Heart, Lock, Scale, Shield, Star, Stethoscope, Truck } from "../../components/icons";
-import { ProductScene } from "../../components/ProductArt";
-import { CATEGORIES, startHref } from "../../lib/catalog";
+import { ArrowRight, Bolt, Chat, Check, Heart, Lock, Scale, Shield, Star, Stethoscope, Truck } from "@/components/icons";
+import { ProductScene } from "@/components/ProductArt";
+import { CATEGORIES, startHref } from "@/lib/catalog";
 
 const TRUST = ["Licensed U.S. clinicians", "100% online", "U.S.-licensed pharmacies", "Free, discreet shipping", "Provider review in 24 hours", "HSA/FSA eligible"];
 

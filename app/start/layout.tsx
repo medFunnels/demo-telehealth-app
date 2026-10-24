@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import { Close, Lock } from "../../components/icons";
-import { Logo } from "../../components/Logo";
+import { Close, Lock } from "@/components/icons";
+import { Logo } from "@/components/Logo";
 
 // The visit and checkout: a focused layout with no site navigation, like most intake flows.
 export default function VisitLayout({ children }: { children: React.ReactNode }) {

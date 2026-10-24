@@ -1,6 +1,6 @@
 // The programs on the home page: every questionnaire `medfunnels pull` synced for this build.
-import releases from "../.medfunnels/releases.json";
-import { medfunnels } from "../medfunnels.server";
+import releases from "@/.medfunnels/releases.json";
+import { medfunnels } from "@/medfunnels.server";
 
 export interface Program {
     slug: string;
