@@ -35,3 +35,4 @@ export const Bolt = (p: Props) => <Svg {...p}><path d="M13 2.5L5 13.5h6l-1 8 8-1
 export const Scale = (p: Props) => <Svg {...p}><rect x="3.5" y="4" width="17" height="16" rx="4" /><path d="M9 9.5a4 4 0 016 0M12 9.5l1.2-1.8" /></Svg>;
 export const Card = (p: Props) => <Svg {...p}><rect x="3" y="5.5" width="18" height="13" rx="2.5" /><path d="M3 10h18M7 15h3" /></Svg>;
 export const Close = (p: Props) => <Svg {...p}><path d="M6 6l12 12M18 6L6 18" /></Svg>;
+export const Search = (p: Props) => <Svg {...p}><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></Svg>;

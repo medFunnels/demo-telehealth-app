@@ -53,7 +53,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
                         Tidewell is a fictional clinic created to demonstrate a <a href="https://www.medfunnels.app">medFunnels</a> integration. It is not a
                         healthcare provider, and nothing on this site is medical advice. Treatments, prices, ratings and reviews are illustrative.
                     </p>
-                    <p>© Tidewell (demo) · <a href={REPO}>Source code, MIT licensed and free to reuse</a></p>
+                    <p>© Tidewell (demo) · <a href={REPO}>Source code, MIT licensed and free to reuse</a> · <Link href="/concepts">Concepts</Link></p>
                 </div>
             </footer>
         </>
